@@ -1,0 +1,125 @@
+! Just some fun playing around with the .Xresources config
+! Goal/inspiration was originally the iconic Nord theme palette
+! https://github.com/kiukiucat     |     https://kiukiu.cat
+
+! Font settings
+! Sauce Code Pro from Nerd Fonts
+XTerm*faceName:SauceCodePro NF:size=10
+URxvt.font: xft:SauceCodePro NF:style=Regular
+URxvt.boldFont: xft:SauceCodePro NF:style=Bold
+URxvt.italicFont: xft:SauceCodePro NF:style=Italic
+URxvt.bolditalicFont: xft:SauceCodePro NF:style=Bold Italic
+URxvt.blackitalicFont: xft:SauceCodePro NF:style=Black Italic,Italic
+URxvt.semibolditalicFont: xft:SauceCodePro NF:style=SemiBold Italic,Italic
+Xft.font: SauceCodePro NF
+
+! Nord color palette
+*.color0: #2E3440
+*.color1: #BF616A
+*.color2: #A3BE8C
+*.color3: #EBCB8B
+*.color4: #81A1C1
+*.color5: #B48EAD
+*.color6: #88C0D0
+*.color7: #D8DEE9
+*.color8: #4C566A
+*.color9: #BF616A
+*.color10: #A3BE8C
+*.color11: #EBCB8B
+*.color12: #81A1C1
+*.color13: #B48EAD
+*.color14: #8FBCBB
+*.color15: #E5E9F0
+
+! Key binding settings ... below
+! I actually have no key bindings set, that''s an issue, good reminder
+! to follow up and add key bindings, so I could copy paste at least
+!    Future keybindings will go here
+
+! Letters always looked weird and spaced out in urxvt regardless of font
+! that was used, this appears to have been the solution... letterSpace
+URxvt.letterSpace: -1.6
+URxvt.lineSpace: 0
+XTerm*lineSpace: 0
+
+! Basic look and feel ... modify to your liking
+URxvt.geometry: 91x23
+XTerm*geometry: 91x23
+URxvt.depth: 32
+XTerm*depth: 32
+URxvt.internalBorder: 27
+XTerm*internalBorder: 27
+URxvt.scrollBar: true
+URxvt.scrollBar_right: true
+XTerm*scrollBar: true
+XTerm*rightScrollBar: true
+
+! Hinting and antialiasing settings
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+
+! Subpixel rendering settings
+! Please modify to your DPI
+Xft.rgba: rgb
+Xft.dpi: 98
+
+! Cursor settings
+Xcursor.size: 14
+*.cursorColor: #8FBCBB
+*.cursorBlink: true
+
+! Background and foreground colors
+*.foreground: #E5E9F0
+*.background: #2E3440
+
+! Fade settings
+*fading: 35
+*fadeColor: #4C566A
+
+! Miscellaneous settings
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.urgentOnBell: true
+URxvt.iso14755: false
+URxvt.intensityStyles: false
+URxvt*skipBuiltinGlyphs: true
+XTerm*termName: xterm-256color
+XTerm*eightBitInput: false
+XTerm*metaSendsEscape: true
+XTerm*dynamicColors: true
+XTerm*utf8: 2
+XTerm*background: #2E3440
+XTerm*foreground: #E5E9F0
+XTerm*colorBD: #D8DEE9
+XTerm*colorUL: #8FBCBB
+XTerm*cursorColor: #8FBCBB
+XTerm*visualBell: true
+XTerm*scrollTtyOutput: false
+XTerm*scrollTtyKeypress: true
+XTerm*scrollKey: true
+XTerm*scrolllines: 3
+XTerm*faceSize: 10
+XTerm*jumpScroll: true
+XTerm*multiScroll: true
+XTerm*toolBar: false
+XTerm*cutNewline: false
+XTerm*loginShell: true
+XTerm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+XTerm*highlightSelection: true
+XTerm*printFileImmediate: false
+XTerm*autoWrap: true
+XTerm*reverseWrap: false
+XTerm*highlightColor: #CDEFFF
+XTerm*highlightTextColor: #BF616A
+XTerm*pointerColorBackground: #FFFFFF
+XTerm*pointerColorForeground: #2E3440
+XTerm*vt100.allowTitleOps: false
+XTerm*vt100.graphics: true
+XTerm*vt100.saveLines: 10000
+XTerm*vt100.scrollBar: true
+XTerm*vt100.toolBar: false
+XTerm*vt100.utf8: true
+XTerm*vt100.blink: true
